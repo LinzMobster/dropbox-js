@@ -1,0 +1,228 @@
+	var gx_mmm = {
+		version: '1.01',
+		addTimeOut:0,
+		gx_mmmLog:[],
+		isStarted: false,
+		counter:0,
+		isSuccess:0,
+		options:{
+			StartNum: 0
+		}
+	}		
+	
+	readSettingsMMM();
+
+	var addpeeps = ['a99cab','c37c00','78ffb4','1753dc','f2c7ab','6737a0','d0e2f7','07c77d','e1fae8','2a446f','f27aa0','6dac12','421fb5','5f6a9b','9e0038','a89d83','f25c0e','2d11f1','986671','1e33e6','0647b9','6c7486','7fe1da','025ee2','faced2','9c453f','f8b6c9','823545','6ed8d1','413903','818dd7','7e84b1','1ab937','fc7dc6','1b2af5','22cadf','644c6f','e01802','a1f6e1','3e932d','8b7d86','539f4d','375f89','4c931c','a3cc68','f00936','1cbdbe','dd5d11','108895','05c61a','74b60a','bee92c','72c812','24a8c7','972653','646d23','faad77','6cd5f2','a66a0b','ec6331','8055bc','30faac','ee7753','584ad3','5ec79e','70c0eb','ec770a','453f5b','5d44be','4d392b','3d9a98','b80cd3','e20fae','f2b431','45abbf','79d61c','40f5f5','c8ab4c','7e8137','fc0bd7','4fd295','a390d1','c377e8','42ece3','877826','99c40e','2e3140','b6fcc6','e2b360','d7db47','ac18b4','f13337','a890e4','db44d7','9e2356','b753bd','c1e3bd','633434','bf4c7a','259bee','0effa2','c6b0ba','71f5af','dc877c','ff5500','400273','028ec0','70ebc9','5611a1','36291f','d1e3fb','4f4e8e','156d69','77d166','a5f45a','e997ff','ca8dfd','31a027','783b87','ed798a','b50ead','2ac071','96101c','e6921d','e6e962','0ad166','0872d1','aa4376','9a3c94','a0e4c9','ac6147','2280d0','21a904','bf76d6','81417c','edca33','31a68a','7f9a1d','5d2fb9','431ac3','5e9cc5','437d5a','b8be53','ce2428','db4379','308e3a','d33c73','e5aa3c','0b020a','943f9d','5cc66d','bb2958','66742b','d7143e','780712','b314a4','62d46f','3741d3','f4f0d4','3c5bbc','9e554b','43f18d','6791d8','705b6d','5494f8','326afe','8ad40c','2fa814','5f726b','2e2c25','58f456','5b4408','040e53','4f3320','200eee','d3fa9a','8b3e1a','46b8c1','a4b92a','875dbe','26da29','d982b2','dc14ea','f3ced9','3cc0aa','933b75','86a6bf','889b06','ccedd1','ee1366','ffe7da','ca57c9','3e192b','f1913b','17810b','fa6293','e19f01','e8de35','845d19','f0a001','cc2f9d','fb36ca','1a1e86','acffc7','7ac4d0','cab628','1884e9','de4938','e5b1db','0cb0f8','7cdd0d','f5e4e3','d353b5','43a85c','be2e45','06eb17','ba515f','96f54a','c53043','dd3436','3ac7ef','f0c37f','6b2696','73eebb','ec32db','a7af0a','0445ad','f92fb0','8d0dad','1fc84c','c1b7ad','3c7074','05e163','5774eb','e4dd56','b112c5','8ee07a','b45983','f3f8be','d35bc7','33f1db','b21b6e','917e90','558ef2','47ec51','b36fc7','c8f3c7','b1bfa6','af8892','d04e80','04bcec','d3a7e1','7ae345','16e97c','79c333','602776','b9302a','0105af','11f9d2','3876da','bab527','4ea543','abbde5','58cb94','63a48b','be27db','797d06','32c490','1218bf','1e76ba','13c91a','a2eb73','9d23e5','6f0fc1','1c106b','9b4332','7a1e91','baf7c4','d323c6','6b8e3b','cdda9f','3c323a','20b4e1','4b8834','477c59','2910da','80f859','992fbe','c22d8c','188df9','d4b752','e7de8d','1ed47a','e5cae5','1e437f','f31cf6','a26cb9','c4fd5b','e63927','5e0408','2202bd','60a7ae','923b42','e6af21','fa591d','d7c1fa','12a074','6eec74','9c9f12','73a043','e3bdd0','43a315','80c64a','dfbf87','d17956','a55026','e1dcbe','599c6f','0311bf','960832','5ad0b6','416f18','ab84f2','692009','c2e38a','bb3d9f','2ac990','1cce0c','ecbbb4','f28580','4ba8ba','fad3df','4128cf','a09969','c3b692','2d330f','05ef11','cc8c76','3dd040','560585','8ae217','ed85d7','238fff','b8511e','4d37ce','d38521','406fc3','6028a7','7cc7e0','c87204','8b57e1','9ae974','cd8ed7','31cf04','308ddc','dc14bd','8bc6f6','5d5d7b','b266a9','66f849','89a124','c4d97f','804df3','f1afbf','c4081b','0a8719','a9b100','c6f4e8','49f1ce','6d8772','00d2c3','78a82b','868cc2','407a8d','f72962','2f8b4c','59f5a3','4bd95e','11231e','145100','e3dde9','7619b7','7944e4','33be5b','bf4d4e','87022e','d9915e','3fbadf','f547a7','70baff','4ce9ac','7b5279','827841','d4b798','2c01a4','dcec44','927a2d','b9e295','7a37c4','e6db1a','903c0a','729011','afd679','e5dc12','d1144d','e86c40','c8bcd7','ac08e1','d42463','1deae0','661fbb','ae1d31','f81e97','d959ec','b36b61','1b5d11','c4b736','ee88d9','0fcdbf','a78375','be4c7c','d73d29','93213d','3b0653','14c52b','737374','4da9ef','2de580','8e02c7','dbf79b','472a57','894d45','1eff8b','7098e5','205e41','bdf0a9','31ad48','8de035','88fa55','860a0a','5767d1','22335e','cf6dab','e1b441','dfb9b9','4ab3d6','875a52','d83e50','3578b3','05b12c','43ff9c','3ef3d1','de08e7','5f0236','75ada4','8800a3','91fe78','7f330f','8c00f4','4abfc8','50b0c9','68b8f4','a743b5','1bfd66','29c0ba','36bfc9','9ca8d0','f17579','6d1a0b','a2e2ac','b3f1b5','9e678f','4ab816','02dc77','46fbda','2bfc84','75f00e','e77366','b0f144','6bd35f','a85656','c3eaa7','9ee35a','b8238c','46502a','b15097','d7cf20','7c0eef','22065b','815bcb','fa0e5c','a4785f','b322cb','c5b02a','3fab10','db4a46','e986b0','777dc2'];	
+	
+	jQuery('#gx_sbStatusBar').after('<div id="guessx_mmmDiv"></div>');
+	jQuery('#guessx_mmmDiv').html(
+		'<style type="text/css">'+
+			'.oj_button{'+
+			'	-moz-box-shadow:inset 0px 0px 0px 0px #ff0000;'+
+			'	-webkit-box-shadow:inset 0px 0px 0px 0px #ff0000;'+
+			'	box-shadow:inset 0px 0px 0px 0px #ff0000;'+
+			'	background-color:#ff0000;'+
+			'	border:1px solid #ffffff;'+
+			'	display:inline-block;'+
+			'	cursor:pointer;'+
+			'	color:#ffffff;'+
+			'	font-family:Arial;'+
+			'	font-size:13px;'+
+			'	font-weight:bold;'+
+			'	padding:6px 12px;'+
+			'	text-decoration:none;'+
+			'}'+
+			'.oj_button_start {'+
+			'	background-color:#009900;'+
+			'}'+
+			'.oj_button_stop  {'+
+			'	background-color:#FF4500;'+
+			'}'+
+			'.font_good {'+
+			'	font-size:13px;'+
+			'	font-weight:bold;'+
+			'	color:#009900;'+
+			'}'+
+			'.font_bad {'+
+			'	color:#FF4500;'+
+			'}'+
+		'</style>'+
+		'<div style="border: 1px solid #444;">'+
+		'<table>'+
+			'<tr>'+
+			'		<td valign="top" style="padding-left: 140px;text-align:center;font-size:17px">'+
+			'		Magic Mob Maxer - v'+gx_mmm.version+
+			'		</td>'+
+			'		<td valign="top" style="text-align:right">'+
+			'		<a id="gx_mmmStopGo" class="oj_button oj_button_start">Start</a>'+
+			'		 <a class="oj_button" id="gx_mmmClose">Close</a>'+
+			'		</td>'+
+			'</tr>'+	
+		'</table>'+
+		'<center><hr style="width:99%;height:1px;" color="#333333"/><br>'+
+		'<span style="text-decoration:underline;font-weight:bold;font-size:15px;">HERE YOU WILL GET THOSE MUCH NEEDED MOB MEMBERS</span><br>'+
+		'Start loading from mob code #:<input style="border:2px solid #FF4500;height:18px;font-weight:bold;font-size:12px;width:34px;text-align:center;" id="gx_mmmStartNum" value="'+gx_mmm.options.StartNum+'">(1-7000)</center>'+
+		'<div style="padding:5px;">'+
+			'Status:<span id="gx_mmmStatus" style="text-align:left;padding:5px;"><span class="font_good">Waiting For Start...</span></span><br />'+
+			'<table style="border: 1px solid #666666; width:100%;">'+
+				'<tr>'+
+					'<td width="50px" valign="top"><a href="#" id="gx_mmmLogShow">Log</a> <input type="text" id="bacon_size" value="15" style="width:16px"></input></td>'+
+					'<td width="1px" valign="top">:</td>' +
+					'<td id="gx_mmmLogged" valign="top" colspan="2"></td>'+
+				'</tr>'+
+			'</table>'+
+		'</div>'+
+	'</div>');
+	
+	
+	jQuery('#gx_mmmStopGo').click(function(){
+		clearTimeout(gx_mmm.addTimeOut);
+		if(gx_mmm.isStarted){
+			gx_mmm.isStarted = false;
+			gx_mmmStatus('Stopped!', true)
+			var font = '';
+			if(gx_mmm.isSuccess == 0){
+				font = 'font_bad';
+			}
+			gx_mmmlogging('Successfully sent: <span class="font_good '+font+'">'+gx_mmm.isSuccess+'</span> Requests')
+			gx_mmmlogging('Magic Mob Maxer Stopped..');
+			jQuery('#gx_mmmStopGo').text('Start');
+			jQuery('#gx_mmmStopGo').removeClass('oj_button_stop').addClass('oj_button_start')
+		}else{
+			gx_mmm.counter = parseInt(jQuery('#gx_mmmStartNum').val());
+			if(isNaN(gx_mmm.counter)){
+				alert('Start number must be between 1-7000');
+				return; 
+			}
+			gx_mmm.isStarted = true;
+			gx_mmmStatus('Started!')
+			gx_mmmlogging('Magic Mob Maxer Running..');
+			gx_mmm.isSuccess=0;
+			jQuery('#gx_mmmStopGo').text('Stop');
+			jQuery('#gx_mmmStopGo').removeClass('oj_button_start').addClass('oj_button_stop')
+			doAdd();
+		}
+		jQuery('#gx_mmmStartNum').val(gx_mmm.counter)
+		gx_mmm.options.StartNum = gx_mmm.counter;
+		writeSettingsMMM();
+		return false;
+	});	
+
+	jQuery('#gx_mmmClose').click(function(){
+		gx_mmm.isStarted = false;
+		jQuery('#guessx_mmmDiv').remove();
+	});
+	
+	jQuery('#gx_mmmLogShow').click(function(){
+		jQuery('#gx_mmmLogged').toggle();
+    });
+	
+	function gx_mmmStatus(msg, bad, none){
+		var font = 'font_good';
+		if(bad){
+			font += ' font_bad';
+		}
+		if(none){
+			font = '';
+		}
+		jQuery('#gx_mmmStatus').html('<span class="'+font+'">'+msg+'</span>')
+	}
+	
+	function gx_mmmlogging(msg){
+		gx_mmm.gx_mmmLog.unshift(msg);
+		var LogCount = gx_mmm.gx_mmmLog.length;
+		var limit = parseInt(jQuery('#bacon_size').val());
+		gx_mmm.gx_mmmLog.length = (LogCount < limit) ? LogCount: limit;
+		document.getElementById('gx_mmmLogged').innerHTML = '';
+		var LogEntry = '';
+		for (LogCount = 0; LogCount < gx_mmm.gx_mmmLog.length; LogCount++) {
+			LogEntry += gx_mmm.gx_mmmLog[LogCount] + '<br>'
+		}
+		jQuery('#gx_mmmLogged').html(LogEntry)
+	}
+
+    function doRequest(url, params, handler, errorhandler) {
+        jQuery.ajax({
+            type: "POST",
+            url: url+params,
+            data: params,
+            cache: false,
+            success: handler,
+            error: errorhandler
+        });
+    }
+	
+	function doAdd(){
+		if(!gx_mmm.isStarted){return;}
+		gx_mmmStatus('Attempting to add mob code: '+addpeeps[gx_mmm.counter], true);
+		doRequest(docoHttp+'//mobwars-prod-ssl.metamoki.com/mob/mobjoin_send_cb.php?', 'alert_container=alert_messages&framework=0&ajax_callback=mw_alert&mob_code='+addpeeps[gx_mmm.counter]+'&mobcode='+addpeeps[gx_mmm.counter], function(resp){
+			resp = resp.replace(/\\/g,"");
+			//jQuery(resp).find('.body div:last').text()
+			resp = resp.replace("Error","");
+			resp = resp.replace("<div style='text-align: center'>", "<div style='float:left;text-align:left;'>");
+			if(/Successfully sent a Mob request to/.test(jQuery(resp).find('.body').text())){
+				gx_mmm.isSuccess++;
+				gx_mmmlogging('<span class="font_good">Success!</span> You sent a request to mob code: '+addpeeps[gx_mmm.counter]);
+			}else if(/Could not find mob code/.test(jQuery(resp).find('.body').text())){
+				gx_mmmlogging('<span class="font_good font_bad">Failed!</span> Can not find mob code: '+addpeeps[gx_mmm.counter]);
+			}else if(/is already a member of your mob/.test(jQuery(resp).find('.body').text())){
+				gx_mmmlogging('<span class="font_good font_bad">Failed!</span> Player already in your mob, try increasing your number');
+			}else if(/Have you already sent them one/.test(jQuery(resp).find('.body').text())){
+				gx_mmmlogging('<span class="font_good font_bad">Failed!</span> Already sent to this player, try increasing your number');
+			}else if(/You reached your limit/.test(jQuery(resp).find('.body').text())){
+				gx_mmmlogging('<span class="font_good font_bad">Failed!</span> Daily limit reached');
+				jQuery('#gx_mmmStopGo').click()
+				return;
+			}else if(/Both you and/.test(jQuery(resp).find('.body').text())){
+				gx_mmmlogging('<span class="font_good font_bad">Failed!</span> You both already have a Magically Maxed Mob!');
+			}else if(resp.indexOf('Invalid ') > -1){
+				gx_mmmlogging('<span class="font_good font_bad">Failed!</span> Invalid request or response');
+			}else{
+				gx_mmmlogging('<span class="font_good font_bad">Failed!</span> Invalid request or response, report this to GuessX '+jQuery(resp).find('.body div:last').text()+' Stopping..');
+				jQuery('#gx_mmmStopGo').click()
+				return;
+			}
+		});
+		gx_mmm.counter++;
+		gx_mmm.addTimeOut = setTimeout(function(){doAdd();},1500);
+	}
+	gx_mmmlogging('Thanks to <a href="https://www.facebook.com/officerjakewebdesign/" target="_blank">OFFICERJake</a> for all the styling');
+	gx_mmmlogging('Waiting For Start...');
+	
+	function writeSettingsMMM(){
+		localStorage.setItem("gx_mmm", JSON.stringify(gx_mmm.options));
+	}
+ 
+	function readSettingsMMM(){
+		if (!localStorage.getItem("gx_mmm")) { //no settings
+			writeSettings();
+		} else {
+			var tempsettings = JSON.parse(localStorage.getItem("gx_mmm"));
+			if(Object.keys(tempsettings).length != Object.keys(gx_mmm.options).length) { 
+				writeSettings();
+			}else{
+				gx_mmm.options = tempsettings;
+			}
+		}
+	}
+	
+	/*add analytics*/
+	function loadContent(file) {
+		var head=document.getElementsByTagName('head').item(0);
+		var scriptTag=document.getElementById('loadScript');
+		if(scriptTag)head.removeChild(scriptTag);
+		script=document.createElement('script');
+		script.src=file;
+		script.type='text/javascript';
+		script.id='loadScript';
+		head.appendChild(script);
+		setTimeout(load,1000);
+	}
+	loadContent('https://www.google-analytics.com/ga.js');
+	function load() {
+		try {
+			var pageTracker=_gat._getTracker("UA-35022618-1");
+			pageTracker._trackPageview("/gx_mmm v"+gx_mmm.version);
+		} catch(err){}
+	}
+	/*end analytics*/	
